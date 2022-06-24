@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>FlightPool</title>
+    <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="simple-adaptive-slider.css">
+    <script defer src="simple-adaptive-slider.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', () => {
+      new ItcSimpleSlider('.itcss', {
+        loop: true,
+        autoplay: true,
+        interval: 5000,
+        swipe: true,
+      });
+      const slider = new ItcSimpleSlider('.itcss');
+  document.querySelector('.btn-prev').onclick = () => {
+    slider.prev();
+  }
+  document.querySelector('.btn-next').onclick = () => {
+    slider.next();
+    };
+  });
+    </script>
+     <style>
+      .itcss {
+        max-width: 590px;
+        max-height: 394px;
+      }
+      .itcss__item {
+      position: relative;
+      counter-increment: slide;
+    }
+      </style>
+  </head>
+  <body>
+    <div class="cont">
+    <span class="wrt"><a id="1" class="help" href="#2">Контакты</a></span>
+    <span class="wrt"><a class="help" href="#3">Акции</a></span>
+    <span align="right" class="wrtt"><a class="help" href="enter.html">Личный кабинет</a></span>
+    </div>
+    <a><h1>FlightPool</h1></a>
+    <p><img src="img/logo копия.png" alt="" srcset=""></p>
+    <p>Мы сближаем города, вы - живете там, где хотите!</p>
+    <div class="itcss">
+      <div class="itcss__wrapper">
+        <div class="itcss__items">
+          <div class="itcss__item">
+           <img src="img/staff.jpg">
+          </div>
+          <div class="itcss__item">
+          <img src="img/1-23.jpg" alt="" srcset="">
+          </div>
+          <div class="itcss__item">
+            <img src="img/964.jpg" alt="" srcset="">
+          </div>
+          <div class="itcss__item">
+            <img src="img/interr.jpg" alt="" srcset="">
+          </div>
+          <div class="itcss__item">
+            <img src="img/roadd.jpg" alt="" srcset="">
+          </div>
+            <div class="itcss__item">
+              <img src="img/p123lan-road-trip-tips-ideas.jpg" alt="" srcset="">
+          </div>
+            <div class="itcss__item">
+              <img src="img/im23-196106.jpg" alt="" srcset="">
+            </div>
+            <div class="itcss__item">
+              <img src="img/turcia.jpg">
+             </div>
+        </div>
+      </div>
+      <a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
+      <a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
+    </div>
+    <h2><a id="3">Возврат и обмен билетов</a></h2>
+    <p class="text">Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.
+      Как только все это закончится, мы продолжим исследовать этот мир так, как мы привыкли.
+      Специальные правила, разработанные для этой сложной ситуации, помогут вам отменить поездку или отложить её на потом.</p>
+      <img class="ggg" src="img/promotion1.jpg" alt="" srcset="">
+      <h2>Лучшие предложения</h2>
+      <p class="text">Снова увидеть улицы, которые так много видели. Обнять своих близких и оглянуться назад, чтобы увидеть, 
+        через что вам пришлось пройти. И думать о новых мечтах, которые будут такими особенными!</p>
+        <img class="ggg" src="img/promotion2.jpg" alt="" srcset="">
+        <h2>Видеться чаще</h2>
+        <p class="text">С начала января мы расширяем географию полетов по России, чтобы вы могли
+          чаще видитесь с близкими.<br> Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</p>
+          <img class="ggg" src="img/promotion3.jpg">
+          <h2>Все снова включено</h2>
+          <p class="text">С 10 августа возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды
+            в день ежедневно, а рейсы по маршруту Москва-Даламан будут выполняться от трех до семи раз в неделю.</p>
+            <img class="ggg" src="img/promotion4.jpg">
+        <a class="help" href="#1"><p class="ded">Наверх</p></a>
+        <div class="contacts">
+          <span class="company"><a id="2">"FlightPool"</a></span>
+         <br> телефон: <br>«8 (800) 100-10-10»
+          <br><a class="ss" href="https://www.instagram.com/flightpool/">instagram</a>
+          <br><a class="ss" href="https://vk.com/flightpool">VK</a>
+          <br><a class="ss" href="https://web.telegram.org/z/#-1158551255">telegram</a>
+         </div>
+         <form action="action_page.php">
+          <div class="container">
+            <h2>Подпишитесь на рассылку, чтобы первыми узнавать о новых акциях</h2>
+          </div>
+          <div class="container">
+            <input type="text" placeholder="Имя" name="name" required>
+            <input type="text" placeholder="Ваша почта" name="mail" required>
+          </div>
+        
+          <div class="container">
+            <input type="submit" value="Подписаться">
+          </div>
+        </form> 
+  </body>
+</html>

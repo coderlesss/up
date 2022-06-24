@@ -1,0 +1,107 @@
+h1{
+    font-family: cursive, Comic sans-serif;
+    color: rgb(17, 7, 29);
+    font-size: 300%;
+    
+}
+h2,h3,h4{
+    font-size: 160%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url(https://sunveter.ru/uploads/posts/2021-06/1625086498_avia9.gif);
+    background-color: rgb(26, 124, 236);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: cursive, Comic sans-serif;
+    background-position: center center;
+    
+    }
+    p{
+        font-size: 160%;
+    }
+    .ded{
+    position: fixed;
+    left: 1%;
+    bottom: 0%;
+    }
+    .itcss__indicators {
+        display: none;
+      }
+    b{
+        right: 0%;
+    }
+    .ss{
+        color: rgb(6, 72, 110);
+        position: bottom;
+        font-size: 120%;
+    }
+    .ss :hover{
+        opacity: 0.3;
+    }
+    .contacts{
+    margin-top: 1%;
+     border: 2px solid blue; 
+     border-top-left-radius: 50%;  
+     border-bottom-left-radius: 50%;
+     border-bottom-right-radius: 50%;
+     border-top-right-radius: 50%;
+     border-radius: 20px;
+     width: 10%;
+     font-size: 110%;
+     margin-left: 45%;
+     background-color: aqua;
+    }
+    .ggg{
+        width: 30%;
+    }
+    .help{
+        color: blue;
+    }
+    .wrt{
+        font-size: 150%;
+        margin-left: 20px;
+    }
+    .wrtt{
+        font-size: 150%;
+        margin-left: 40%;
+    }
+    .text{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    form{
+     border: 2px solid blue; 
+     border-top-left-radius: 50%;  
+     border-bottom-left-radius: 50%;
+     border-bottom-right-radius: 50%;
+     border-top-right-radius: 50%;
+     border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    font-size: 70%;
+    }
+    .container {
+        padding: 10px;
+    }
+    input[type=text], input[type=submit] {
+        width: 50%;
+        padding: 12px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+    }
+    input[type=submit]:hover {
+        opacity: 0.8;
+    }
